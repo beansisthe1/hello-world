@@ -4,8 +4,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Ghost)
 })
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    music.playMelody("C C E E G G B B ", 120)
-    music.setVolume(255)
-})
 basic.showIcon(IconNames.Chessboard)
+loops.everyInterval("Hee Hee Hee Haa".length, function () {
+    music.playMelody("G G G G G G G G ", 120)
+})
