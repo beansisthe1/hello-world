@@ -6,5 +6,6 @@ input.onButtonPressed(Button.B, function () {
 })
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     music.playMelody("C C E E G G B B ", 120)
+    music.setVolume(127)
 })
 basic.showIcon(IconNames.Chessboard)
